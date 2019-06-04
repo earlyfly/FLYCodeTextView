@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D8D53DF8B8FAAEDEB5FC413 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0D8D53DF8B8FAAEDEB5FC413 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1393C6122E7059A761892B03 /* Pods-FLYCodeTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYCodeTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-FLYCodeTextView_Example/Pods-FLYCodeTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1510F2699778C5A251438668 /* Pods-FLYCodeTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYCodeTextView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FLYCodeTextView_Tests/Pods-FLYCodeTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F68C117E94AC2574736C828 /* Pods-FLYCodeTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYCodeTextView_Example.release.xcconfig"; path = "Target Support Files/Pods-FLYCodeTextView_Example/Pods-FLYCodeTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63C6CF5E06D32F466FF23A8F /* FLYCodeTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FLYCodeTextView.podspec; path = ../FLYCodeTextView.podspec; sourceTree = "<group>"; };
+		63C6CF5E06D32F466FF23A8F /* FLYCodeTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLYCodeTextView.podspec; path = ../FLYCodeTextView.podspec; sourceTree = "<group>"; };
 		65B720AEC47E15B1CB3B670D /* Pods_FLYCodeTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLYCodeTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96B4E77894B12D2896877D66 /* Pods_FLYCodeTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLYCodeTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CFFD37430F9806122DEF87 /* Pods-FLYCodeTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYCodeTextView_Tests.release.xcconfig"; path = "Target Support Files/Pods-FLYCodeTextView_Tests/Pods-FLYCodeTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D8200C99E726AC22EDCF02CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D8200C99E726AC22EDCF02CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				1510F2699778C5A251438668 /* Pods-FLYCodeTextView_Tests.debug.xcconfig */,
 				C2CFFD37430F9806122DEF87 /* Pods-FLYCodeTextView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = FlyW;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = X42JP3WZDM;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,12 +498,16 @@
 			baseConfigurationReference = 1393C6122E7059A761892B03 /* Pods-FLYCodeTextView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42JP3WZDM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLYCodeTextView/FLYCodeTextView-Prefix.pch";
 				INFOPLIST_FILE = "FLYCodeTextView/FLYCodeTextView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -509,12 +517,16 @@
 			baseConfigurationReference = 1F68C117E94AC2574736C828 /* Pods-FLYCodeTextView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42JP3WZDM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLYCodeTextView/FLYCodeTextView-Prefix.pch";
 				INFOPLIST_FILE = "FLYCodeTextView/FLYCodeTextView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
