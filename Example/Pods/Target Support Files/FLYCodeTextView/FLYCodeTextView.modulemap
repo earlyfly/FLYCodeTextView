@@ -1,0 +1,6 @@
+framework module FLYCodeTextView {
+  umbrella header "FLYCodeTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

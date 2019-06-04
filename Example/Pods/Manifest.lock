@@ -1,0 +1,16 @@
+PODS:
+  - FLYCodeTextView (0.0.1)
+
+DEPENDENCIES:
+  - FLYCodeTextView (from `../`)
+
+EXTERNAL SOURCES:
+  FLYCodeTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLYCodeTextView: b78c0bdf57f1dd3c82d83cf94732696fde9c1720
+
+PODFILE CHECKSUM: 0e8508146e413a8b15f73f6bc2fd930965157aa9
+
+COCOAPODS: 1.7.0

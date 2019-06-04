@@ -8,6 +8,5 @@ target 'FLYCodeTextView_Example' do
   target 'FLYCodeTextView_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end

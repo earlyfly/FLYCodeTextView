@@ -1,0 +1,22 @@
+{
+  "name": "FLYCodeTextView",
+  "version": "0.0.1",
+  "summary": "单行一字一框输入框",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/earlyfly/FLYCodeTextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FlyW": "760778220@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/earlyfly/FLYCodeTextView.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FLYCodeTextView/Classes/**/*"
+}
