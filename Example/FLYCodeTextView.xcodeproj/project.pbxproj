@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D8D53DF8B8FAAEDEB5FC413 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1393C6122E7059A761892B03 /* Pods-FLYCodeTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYCodeTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-FLYCodeTextView_Example/Pods-FLYCodeTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1510F2699778C5A251438668 /* Pods-FLYCodeTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYCodeTextView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FLYCodeTextView_Tests/Pods-FLYCodeTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F68C117E94AC2574736C828 /* Pods-FLYCodeTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYCodeTextView_Example.release.xcconfig"; path = "Target Support Files/Pods-FLYCodeTextView_Example/Pods-FLYCodeTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,7 +59,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63C6CF5E06D32F466FF23A8F /* FLYCodeTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLYCodeTextView.podspec; path = ../FLYCodeTextView.podspec; sourceTree = "<group>"; };
+		63C6CF5E06D32F466FF23A8F /* FLYCodeTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLYCodeTextView.podspec; path = ../FLYCodeTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		65B720AEC47E15B1CB3B670D /* Pods_FLYCodeTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLYCodeTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -190,7 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				63C6CF5E06D32F466FF23A8F /* FLYCodeTextView.podspec */,
-				0D8D53DF8B8FAAEDEB5FC413 /* README.md */,
 				D8200C99E726AC22EDCF02CA /* LICENSE */,
 			);
 			name = "Podspec Metadata";
